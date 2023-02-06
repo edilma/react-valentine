@@ -4,6 +4,8 @@ header{
 
 .card-main{
   background-image: url(../src/components/images/re-white-background.jpeg);
+  display: flex;
+  flex-direction: column;
 }
 
 
