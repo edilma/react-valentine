@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+header{
+  background-color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-main{
+  background-image: url(../src/components/images/re-white-background.jpeg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.card-section{
+      display: flex;
+      flex-direction: row;
+      
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.corner-card-large {
   display: flex;
+  flex: 1;
+  height: 400px;
+  background-image: url(./components/images/heart-1.webp);
+}
+.center-card {
+  display: flex;
+  flex: 4;
+  
+}
+
+.corner-card-short{
+  display: flex;
+  flex: 1;
+  height: 400px;
+}
+.hpd-message{
+  display: flex; 
+  flex: 1;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+}
+.happy, .valentines,.day {color: red;}
+.happy{
+  font-size: 10em;
+  
+}
+.valentines{
+  font-size: 15em;
+}
+.day{
+  font-size: 10em;
+}
+button{
+  border: 1em;
+  border-radius: 2px;
+  background-color: red;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.heart{
+  font-size: 20px;
+  position: fixed;
+  top: -1vh;
+  transform: translateY(0);;
+  animation: fall 3s linear forwards;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@keyframes fall{
+  to{
+      transform: translateY(105vh)
   }
 }
