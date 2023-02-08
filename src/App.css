@@ -1,3 +1,4 @@
+
 header{
   background-color: #fff;
 }
@@ -8,36 +9,34 @@ main{
   flex-direction: column;
 }
 
+/*SECTION ONE */
 
-.card-section{
-    
-      display: flex;
-      flex-direction: row;
-      margin: auto;
-      
+section{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
 }
 
-.corner-card-large {
-  display: flex;
-  flex: 2;
-  flex-shrink: 1;
- align-self: auto;
-  background-image: url(./components/images/heart-1.webp);
+
+
+.corner-card-large , .corner-card-short > img {
+  width: calc(100%/6);
+  height: 100%;
+  transform: scale(0.5);
+
 }
-.center-card {
-  display: flex;
-  flex: 8;
-  flex-shrink: 4;
+
+.center-card >img {
+  flex: 1;
+  height: 100%;
+  text-align: center;
   
 }
 
-.corner-card-short{
-  display: flex;
-  flex: 2;
-  flex-shrink: 1;
-  margin: auto;
 
-}
+
 .hpd-message{
   display: flex; 
   flex: 1;
@@ -52,10 +51,10 @@ main{
   
 }
 .valentines{
-  font-size: 15em;
+  font-size: 10em;
 }
 .day, .happy{
-  font-size: 10em;
+  font-size: 7em;
 }
 button{
   border: 1em;
@@ -79,6 +78,7 @@ button{
 }
 
 .heart-2{
+  
   
   height: 50%;
   object-position: center;
