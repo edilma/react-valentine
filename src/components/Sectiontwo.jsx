@@ -1,10 +1,17 @@
-export function Sectiontwo(){
+export function Sectiontwo() {
+    function generateheart() {
+
+
+    }
+
+
     return (
-        <section className="hpd-message" >
-        <div className="happy">happy</div>
-        <div className="valentines">Valentines</div>
-        <div className="day">Day </div>
-        <div><button onclick="generateheart()">Send Love</button></div>
+        <section className="hpd-message "  >
+
+            <div className="happy">happy</div>
+            <div className="valentines">Valentines</div>
+            <div className="day">Day </div>
+          
         </section>
     )
 }
