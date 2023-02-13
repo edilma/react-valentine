@@ -1,7 +1,26 @@
-# Creating a Valentine Card with React
 
-This project is hosted in my repository [React Valentine](https://github.com/edilma/react-valentine).
+# React Valentines Card
 
-[](/valentine-react/public/![alt](https://))
+This card was made using React.  The card contains some animations created using css.
 
-[Screenshot](https://github.com/edilma/react-valentine/blob/main/src/components/images/Screenshot%202023-02-05%20at%209.54.29%20PM.png)
+## Deployment
+You can see the valentines card live at 
+
+[Link to React Valentines Card ](https://valentine-card-react.web.app/)
+
+
+## Technologies used
+- React
+- HTML
+- CSS
+
+
+## Demo
+
+![Image](https://raw.githubusercontent.com/edilma/react-valentine/main/src/components/images/Valentine-Card-Edilma.gif)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
