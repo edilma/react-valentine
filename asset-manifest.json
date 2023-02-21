@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-valentine/static/css/main.94882ec1.css",
+    "main.js": "/react-valentine/static/js/main.1808f811.js",
+    "static/media/heart-1.webp": "/react-valentine/static/media/heart-1.f55b7ee381f1b021fedb.webp",
+    "static/media/heart-2.webp": "/react-valentine/static/media/heart-2.f6ab410b8ecd382cfc83.webp",
+    "static/media/re-white-background.jpeg": "/react-valentine/static/media/re-white-background.541a3281f25d2cee9b49.jpeg",
+    "index.html": "/react-valentine/index.html",
+    "main.94882ec1.css.map": "/react-valentine/static/css/main.94882ec1.css.map",
+    "main.1808f811.js.map": "/react-valentine/static/js/main.1808f811.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94882ec1.css",
+    "static/js/main.1808f811.js"
+  ]
+}
